@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nama Anda - Portofolio Pribadi</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <a href="#" class="logo">Nama Anda</a>
+                <ul class="nav-links">
+                    <li><a href="#home">Beranda</a></li>
+                    <li><a href="#about">Tentang Saya</a></li>
+                    <li><a href="#projects">Proyek</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+                <div class="dark-mode-toggle">
+                    <input type="checkbox" id="dark-mode-checkbox">
+                    <label for="dark-mode-checkbox"></label>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero" data-aos="fade-up">
+            <div class="container">
+                <h1>Halo, saya <span class="highlight">Nama Anda</span>.</h1>
+                <p>Saya adalah seorang [Profesi Anda], dengan fokus pada [Spesialisasi Anda]. Saya suka membangun hal-hal keren di web.</p>
+                <a href="#projects" class="btn">Lihat Proyek Saya</a>
+            </div>
+        </section>
+
+        <section id="about" class="about-me" data-aos="fade-up">
+            <div class="container">
+                <h2>Tentang Saya</h2>
+                <p>Saya [Nama Anda], seorang [Profesi Anda] yang bersemangat dalam [Minat Anda]. Dengan pengalaman selama [Jumlah Tahun] tahun, saya telah mengembangkan keahlian di [Sebutkan beberapa keahlian, misal: HTML, CSS, JavaScript, React, UI/UX Design]. Saya selalu tertarik untuk belajar hal baru dan menghadapi tantangan.</p>
+                <p>Di waktu luang, saya suka [Hobi atau minat pribadi Anda]. Saya percaya bahwa kombinasi antara kreativitas dan logika adalah kunci untuk menciptakan solusi yang efektif dan menarik.</p>
+            </div>
+        </section>
+
+        <section id="projects" class="projects" data-aos="fade-up">
+            <div class="container">
+                <h2>Proyek Saya</h2>
+                <div class="project-grid">
+                    <div class="project-item" data-aos="zoom-in">
+                        <img src="https://via.placeholder.com/400x250?text=Proyek+1" alt="Proyek 1">
+                        <h3>Nama Proyek 1</h3>
+                        <p>Deskripsi singkat tentang Proyek 1. Ini adalah aplikasi web yang dibangun dengan [teknologi yang digunakan].</p>
+                        <a href="#" class="btn-sm" target="_blank">Lihat Proyek</a>
+                    </div>
+                    <div class="project-item" data-aos="zoom-in" data-aos-delay="100">
+                        <img src="https://via.placeholder.com/400x250?text=Proyek+2" alt="Proyek 2">
+                        <h3>Nama Proyek 2</h3>
+                        <p>Deskripsi singkat tentang Proyek 2. Ini adalah situs portofolio yang menampilkan [fitur utama].</p>
+                        <a href="#" class="btn-sm" target="_blank">Lihat Proyek</a>
+                    </div>
+                    <div class="project-item" data-aos="zoom-in" data-aos-delay="200">
+                        <img src="https://via.placeholder.com/400x250?text=Proyek+3" alt="Proyek 3">
+                        <h3>Nama Proyek 3</h3>
+                        <p>Deskripsi singkat tentang Proyek 3. Sebuah platform e-commerce sederhana dengan [fitur tertentu].</p>
+                        <a href="#" class="btn-sm" target="_blank">Lihat Proyek</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact" data-aos="fade-up">
+            <div class="container">
+                <h2>Hubungi Saya</h2>
+                <p>Punya pertanyaan atau ingin berkolaborasi? Jangan ragu untuk menghubungi saya!</p>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Nama:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Pesan:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Kirim Pesan</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Nama Anda. Hak Cipta Dilindungi Undang-Undang.</p>
+            <div class="social-icons">
+                <a href="https://linkedin.com/in/namaanda" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/namaanda" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://twitter.com/namaanda" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
